@@ -11,6 +11,11 @@ Creates a single jar file at `target/uberjar`.
 Requires [leiningen](https://leiningen.org/).
 
     $ lein uberjar
+    
+Please note, the files `resources/conf.edn` and
+`resources/github-private-key.pem` are excluded from source control. The program
+will not run correctly without them. (The final artifact, however, is included in
+source control: see `Usage`.)
 
 ## Testing
 
