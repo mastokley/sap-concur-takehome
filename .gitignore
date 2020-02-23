@@ -1,0 +1,8 @@
+Leiningen.gitignore
+/resources/conf.edn
+/resources/github-private-key.pem
+.eastwood
+.hgignore
+.lein-failures
+.nrepl-port
+*.class
